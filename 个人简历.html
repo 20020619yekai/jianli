@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>叶凯_个人简历</title>
+    <style>
+        /* 全局样式 - 专为Word打印优化 */
+        body {
+            font-family: '微软雅黑', 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            padding: 30px 0;
+            margin: 0;
+        }
+        .resume {
+            max-width: 900px;
+            width: 100%;
+            background-color: #ffffff;
+            padding: 40px 45px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            color: #1a3e60;
+            letter-spacing: 8px;
+            margin-top: 0;
+            margin-bottom: 15px;
+            border-bottom: 3px double #d0dbe6;
+            padding-bottom: 18px;
+            font-weight: 600;
+        }
+        .section-title {
+            font-size: 17px;
+            font-weight: 700;
+            color: #ffffff;
+            background-color: #1a3e60;
+            padding: 6px 15px;
+            margin-top: 22px;
+            margin-bottom: 14px;
+            border-radius: 4px;
+            letter-spacing: 2px;
+            display: inline-block;
+        }
+        .info-grid {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14.5px;
+            line-height: 1.8;
+            margin-bottom: 5px;
+        }
+        .info-grid td {
+            padding: 4px 10px 4px 0;
+            vertical-align: top;
+        }
+        .info-grid .label {
+            font-weight: 600;
+            color: #2c3e50;
+            width: 85px;
+            white-space: nowrap;
+        }
+        .info-grid .divider {
+            color: #b0bec5;
+            padding: 0 5px;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #eef4f8;
+            color: #1a3e60;
+            font-weight: 600;
+            padding: 0 10px;
+            border-radius: 12px;
+            font-size: 13px;
+            margin-right: 4px;
+        }
+        .exp-item {
+            margin-bottom: 18px;
+        }
+        .exp-item .exp-header {
+            font-weight: 700;
+            font-size: 15px;
+            color: #1a3e60;
+            margin-bottom: 4px;
+        }
+        .exp-item .exp-org {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        .exp-item .exp-date {
+            float: right;
+            font-weight: 400;
+            color: #7f8c8d;
+            font-size: 13px;
+        }
+        .exp-item ul {
+            margin-top: 4px;
+            margin-bottom: 4px;
+            padding-left: 20px;
+            list-style-type: square;
+            color: #2c3e50;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+        .exp-item ul li {
+            margin-bottom: 2px;
+        }
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 20px;
+            padding: 4px 0;
+        }
+        .skill-tags span {
+            background: #f0f4f9;
+            padding: 2px 12px;
+            border-radius: 14px;
+            font-size: 14px;
+            border-left: 3px solid #1a3e60;
+        }
+        .self-eval {
+            background-color: #f8fafc;
+            padding: 14px 20px;
+            border-radius: 6px;
+            font-size: 14.5px;
+            line-height: 1.8;
+            border-left: 4px solid #1a3e60;
+            margin-top: 6px;
+        }
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .sub-text {
+            color: #5d6d7e;
+            font-size: 13px;
+        }
+        hr {
+            border: none;
+            border-top: 1px dashed #d5dce2;
+            margin: 18px 0 8px 0;
+        }
+        .print-meta {
+            display: none;
+        }
+        @media print {
+            body { background: white; padding: 0; }
+            .resume { box-shadow: none; border-radius: 0; padding: 30px; }
+        }
+        /* 为Word兼容，加一点内边距修正 */
+        table { border-collapse: collapse; }
+        td { vertical-align: top; }
+    </style>
+</head>
+<body>
+<div class="resume">
+
+    <!-- 标题 -->
+    <h1>个 人 简 历</h1>
+
+    <!-- 基本信息表格 -->
+    <table class="info-grid">
+        <tr>
+            <td class="label">姓　名</td>
+            <td><b>叶凯</b> <span class="divider">｜</span> 性　别：男 <span class="divider">｜</span> 年　龄：24岁</td>
+            <td class="label" style="width:80px;">到岗时间</td>
+            <td><b>2025.06</b> 全职入职</td>
+        </tr>
+        <tr>
+            <td class="label">联系方式</td>
+            <td><b>17307031393</b> <span class="divider">｜</span> 邮　箱：2544359578@qq.com</td>
+            <td class="label">现居地址</td>
+            <td>上海·青浦区</td>
+        </tr>
+        <tr>
+            <td class="label">求职意向</td>
+            <td colspan="3"><b>电力材料员</b> ｜ 工程资料员 ｜ 项目物资管理员 ｜ 项目内勤</td>
+        </tr>
+        <tr>
+            <td class="label">核心持证</td>
+            <td colspan="3"><span class="tag">交安A证</span>（安全生产管理人员证书）</td>
+        </tr>
+    </table>
+
+    <!-- 资格证书 -->
+    <div class="section-title">资格证书</div>
+    <table class="info-grid" style="margin-top:-4px;">
+        <tr><td style="padding:3px 0;"><b>▪ 交安A证</b>：电力项目安全上岗准入资格，熟知工地物资管控与现场安全规范。</td></tr>
+        <tr><td style="padding:3px 0;"><b>▪ 计算机二级</b>：精通Office办公套件，熟练Excel台账建立、函数核算及资料整编。</td></tr>
+        <tr><td style="padding:3px 0;"><b>▪ C1驾驶证</b>：驾驶技术熟练，可独立外勤对接供应商及工地短途物资协调。</td></tr>
+    </table>
+
+    <!-- 专业技能 -->
+    <div class="section-title">专业技能</div>
+    <div class="skill-tags">
+        <span><b>电力物资</b>：10kV金具/绝缘子/杆塔验收、出入库、台账、报验全流程</span>
+        <span><b>工程资料</b>：资料报审、组卷、竣工归档，识图及对接监理甲方</span>
+        <span><b>安全管控</b>：安全台账、仓库隐患排场、配合项目自查整改</span>
+        <span><b>综合能力</b>：多方沟通协调，细心严谨，适配项目文职与物资岗</span>
+    </div>
+
+    <!-- 实习经历 -->
+    <div class="section-title">实习经历</div>
+
+    <div class="exp-item clearfix">
+        <div class="exp-header">
+            <span class="exp-org">上海青浦香花桥电力安装有限公司</span>
+            <span class="exp-date">2025.06 – 2026.07</span>
+        </div>
+        <div style="font-weight:600; font-size:14px; color:#2c3e50;">电力材料员</div>
+        <ul>
+            <li>参与10kV配网线路迁改项目，独立负责物料收发核验、仓库规范化管理。</li>
+            <li>搭建电子物资台账，定期盘点对账，确保账物相符，全程无误工缺料。</li>
+            <li>归集物料合格证，配合资料员完成材料报验及竣工资料归档。</li>
+            <li>依托交安A证主动排查仓库安全隐患，高效对接供应商保障施工用料。</li>
+        </ul>
+    </div>
+
+    <div class="exp-item clearfix">
+        <div class="exp-header">
+            <span class="exp-org">建设工程有限公司</span>
+            <span class="exp-date">2025.03 – 2025.06</span>
+        </div>
+        <div style="font-weight:600; font-size:14px; color:#2c3e50;">工程资料员实习生</div>
+        <ul>
+            <li>整理施工检验批、隐蔽工程、签证等全套资料，成功对接监理及甲方完成报审签字。</li>
+            <li>梳理施工图纸，精准核算耗材用量，协助项目部完成材料对账及资料装订归档。</li>
+        </ul>
+    </div>
+
+    <div class="exp-item clearfix">
+        <div class="exp-header">
+            <span class="exp-org">快手电商商户（日用百货类）</span>
+            <span class="exp-date">2023.10 – 2023.12</span>
+        </div>
+        <div style="font-weight:600; font-size:14px; color:#2c3e50;">电商助理实习生</div>
+        <ul>
+            <li>审核平台订单信息，核对货品规格、数量及出库信息，确保订单准确无误。</li>
+            <li>每日整理线上订单台账、物流单据及售后回执，分类归档电子与纸质单据。</li>
+            <li>协助仓库完成出入库登记及月度库存盘点，核对平台与实物库存，修正台账误差。</li>
+            <li>熟练数据录入、台账整理与单据归档，擅长数据处理及跨部门流程对接。</li>
+        </ul>
+    </div>
+
+    <!-- 教育背景 -->
+    <div class="section-title">教育背景</div>
+    <table class="info-grid">
+        <tr>
+            <td style="width:180px;"><b>江西科技师范大学</b></td>
+            <td>全日制本科 ｜ 计算机相关专业</td>
+            <td style="text-align:right;"><b>2021.09 – 2025.06</b></td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding-top:2px; color:#3d5166;">在校特质：办公软件应用扎实，自律细心，执行力强，服从项目调配，团队协作意识良好。</td>
+        </tr>
+    </table>
+
+    <!-- 自我评价 -->
+    <div class="section-title">自我评价</div>
+    <div class="self-eval">
+        2025届全日制本科应届毕业生，拥有<b>电力材料管理、工程资料整编、电商后台运营</b>三段对口实习经历，持交安A证。计算机专业背景赋予我扎实的台账处理与数据分析能力。做事耐心、抗压，沟通得体，稳定性强，能快速融入项目团队并胜任物资与资料管理类工作。期待与贵司共同成长。
+    </div>
+
+    <hr>
+    <div style="text-align:center; color:#95a5a6; font-size:12px; letter-spacing:1px;">
+        感谢您的阅读 · 期待与您共事
+    </div>
+
+</div>
+</body>
+</html>
